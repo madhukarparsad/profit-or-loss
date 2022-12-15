@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Estonia&family=M+PLUS+1+Code&family=Montserrat&family=Roboto&family=Roboto+Mono&display=swap');
+
+:root{
+    font-family: 'Roboto', sans-serif;
+    --primary-color: #374151;
+    --secondary-color:green;
+    background-color: var(--secondary-color);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    width: 30%;
+}
+#initial-price{
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid var(--primary-color);
+}
+#stock-quantity{
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid var(--primary-color);
+}
+#current-price{
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+    border:2px solid var(--primary-color);
+}
+label{
+    margin-top: 2rem;
+    font-weight: bold;
+}
+#check-button{
+    width: 40%;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 00.8rem;
+    border-radius: 0.5rem;
+    background-color:black;
+    font-weight: bold;
+    color: white;
+}
+#out-put{
+    margin-top: 0.5rem;
+    font-weight: bold;
+
+}
