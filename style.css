@@ -6,7 +6,10 @@
     --secondary-color:green;
     background-color: var(--secondary-color);
 }
-
+body{
+    background-color:yellow;
+     border-radius: 3rem
+}
 .container{
     display: flex;
     flex-direction: column;
